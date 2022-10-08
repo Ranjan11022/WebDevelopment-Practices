@@ -1,0 +1,35 @@
+<html>
+    <head> 
+        <tittle>Luck Game</tittle>
+        <link rel="stylesheet" href="Game.css"/>
+       
+    </head>
+    <body>
+        <header>
+            <h2>Guess Lucky Number</h2>
+            <h1 class="tittle" id="idtittle">How Lucky You Are?👻</h1>
+
+            <p class="between">(Between 1 and 20)</p>
+            <button class="btn again" id="again">Again!</button>
+            <div class="number">?</div>
+        </header>
+
+        <main id="main">
+            <section class="left">
+                <input type="number" class="guess" id="guessing">
+                <button class="btn checkbtn" id="check">Check!</button>
+            </section>
+
+            <section class="right">
+                <p class="message" id="message">Start Guessin</p>
+                <p class="label-score">💯 score:
+                    <span class="score" id="score">20</span>
+                </p>
+                <p class="label-highscore">
+                    🏆Highscore:
+                </p>
+            </section>
+        </main>
+        <script src="Game.js"></script>
+    </body>
+</html>
